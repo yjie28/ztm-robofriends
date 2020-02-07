@@ -3,6 +3,10 @@ import Card from './Card';
 
 // destructuring from robots.js
 const CardList = ({ robots }) => {
+  // still throws error because in development mode
+  // if (true) {
+  //   throw new Error('NOOO!');
+  // }
   return (
     // second parameter, index
     <div>
