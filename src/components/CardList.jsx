@@ -10,10 +10,10 @@ const CardList = ({ robots }) => {
   return (
     // second parameter, index
     <div>
-      {robots.map((user, i) => {
+      {robots.map((robot, i) => {
         // key prop should not change;
         return (
-          <Card key={i} id={user.id} name={user.name} email={user.email} />
+          <Card key={i} id={robot.id} name={robot.name} email={robot.email} />
         );
       })}
     </div>
