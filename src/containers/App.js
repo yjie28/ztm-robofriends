@@ -37,6 +37,7 @@ class App extends Component {
       .then(users => this.setState({ robots: users }));
   }
 
+  // binds automatically...?
   onSearchChange = e => {
     // can only modify state through this method; never this.state.xx = xx, goes back to the idea of one direction data flow
     this.setState({ searchfield: e.target.value }); // one of the Component method
