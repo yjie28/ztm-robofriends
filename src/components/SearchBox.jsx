@@ -1,13 +1,13 @@
 import React from 'react';
 
 // will work without searchfield..
-const SearchBox = ({ searchfield, searchChange }) => {
+const SearchBox = ({ searchField, searchChange }) => {
   return (
     <div className="pa2">
       <input
         className="pa3 ba b--green bg-lightest-blue"
         type="search"
-        placeholder={searchfield}
+        placeholder={searchField}
         onChange={searchChange}
       />
     </div>
